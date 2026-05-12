@@ -20,21 +20,26 @@ jobs:
         with:
           dotnet-version: 8.x
 
-      # Cache NuGet packages
+      # Cache NuGet packages automatically with setup-dotnet if possible, 
+      # or use explicit cache.
       - name: Cache NuGet
         uses: actions/cache@v4
         with:
           path: ~/.nuget/packages
-          key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
+          key: ${{ runner.os }}-nuget-${{ hashFiles('Backend/**/*.csproj') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
 
       - name: Restore dependencies
-        run: dotnet restore backend/SIMS.Backend.csproj
+        run: dotnet restore Backend/Backend/Backend.csproj
 
       - name: Build (Release)
-        run: dotnet build backend/SIMS.Backend.csproj --configuration Release --no-restore
+        run: dotnet build Backend/Backend/Backend.csproj --configuration Release --no-restore
 
       - name: Run tests
-        run: dotnet test backend/SIMS.Backend.csproj --configuration Release --no-build --verbosity normal
+        # Assuming tests are in the same project or a separate one. 
+        # If no tests exist yet, this might fail.
+        run: dotnet test Backend/Backend/Backend.csproj --configuration Release --no-build --verbosity normal
 
 
   frontend:
@@ -48,15 +53,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 24
-          cache: npm
+          node-version: 22 # Use Node 22 LTS for better stability and match local
+          cache: 'npm'
           cache-dependency-path: frontend/package-lock.json
-
-      - name: Cache npm manually (extra safety)
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-npm-${{ hashFiles('frontend/package-lock.json') }}
 
       - name: Install dependencies (CI mode)
         working-directory: ./frontend
