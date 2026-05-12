@@ -1,0 +1,6 @@
+id, class_subject_detail_id, title, description, due_date
+ASM001,CSD10001,SP24_WD08101_1001_1,Final Project Part 1,2024-05-01
+ASM002,CSD10001,SP24_WD08101_1001_2,Final Project Part 2,2024-05-15
+ASM003,CSD10002,SP24_AD08101_1002_1,Assignment 1: UI Design,2024-05-01
+ASM004,CSD10002,SP24_AD08101_1002_2,Assignment 2: Logic,2024-05-20
+ASM005,CSD10002,SP24_AD08101_1002_3,Assignment 3: Deployment,2024-06-01

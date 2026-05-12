@@ -1,0 +1,4 @@
+id, class_subject_detail_id, title, file_path, video_url, category, upload_date
+MAT001,CSD10001,HTML5 & CSS3 Guide,/materials/wd/guide.pdf,https://youtube.com/wd1,Document,2024-01-20
+MAT002,CSD10002,Android Basics,/materials/ad/basics.pptx,https://youtube.com/ad1,Slides,2024-01-20
+MAT003,CSD10003,Discrete Maths Logic,/materials/dm/logic.pdf,https://youtube.com/dm1,Document,2024-01-20

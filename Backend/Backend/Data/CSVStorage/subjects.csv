@@ -1,0 +1,5 @@
+id, name, department_id, credits
+1001,Website Design,DEP001,3
+1002,Application Development,DEP001,4
+1003,Discrete Maths,DEP002,3
+1004,Internet of Things,DEP001,3

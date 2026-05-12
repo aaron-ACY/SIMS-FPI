@@ -1,0 +1,4 @@
+id, user_id, department_id, gender, date_of_birth, phone, qualification, experience, address, city, image_path
+FPI001,FPI001,DEP001,Male,1980-05-15,0901234567,PhD,15,123 Main St,Da Nang,/images/teachers/fpi001.jpg
+FPI002,FPI002,DEP001,Female,1985-10-20,0901234568,Master,10,456 Side St,Da Nang,/images/teachers/fpi002.jpg
+FPI003,FPI003,DEP002,Male,1978-03-12,0901234569,PhD,20,789 Back St,Da Nang,/images/teachers/fpi003.jpg

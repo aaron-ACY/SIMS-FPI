@@ -1,0 +1,8 @@
+id, assignment_id, student_id, file_path, submission_date, grade, teacher_comments
+SUB1000001,ASM001,BD00001,/uploads/s1_wd_a1.pdf,2024-04-30,85,Good job
+SUB1000002,ASM001,BD00002,/uploads/s2_wd_a1.pdf,2024-04-30,90,Excellent
+SUB1000003,ASM002,BD00001,/uploads/s1_wd_a2.zip,2024-05-14,88,Well organized
+SUB1000004,ASM002,BD00002,/uploads/s2_wd_a2.zip,2024-05-14,92,Great work
+SUB1000005,ASM003,BD00003,/uploads/s3_ad_a1.pdf,2024-04-30,75,Keep it up
+SUB1000006,ASM004,BD00003,/uploads/s3_ad_a2.zip,2024-05-19,80,Nice logic
+SUB1000007,ASM005,BD00004,/uploads/s4_ad_a3.zip,2024-05-31,85,Successful deployment

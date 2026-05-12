@@ -1,0 +1,5 @@
+id, class_id, subject_id, teacher_id, status
+CSD10001,C1001,1001,FPI001,open
+CSD10002,C1002,1002,FPI002,open
+CSD10003,C1003,1003,FPI003,open
+CSD10004,C1004,1004,FPI001,open

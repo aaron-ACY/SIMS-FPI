@@ -1,0 +1,15 @@
+id,email,password,role,full_name,hash_algorithm
+AD001,admin1@gmail.com,Admin@123,Admin,Hứa Đan,BCrypt
+AD002,admin2@gmail.com,Admin@123,Admin,Trần Hữu,BCrypt
+FPI001,teacher1@gmail.com,Teacher@123,Instructor,Nguyễn Văn A,BCrypt
+FPI002,teacher2@gmail.com,Teacher@123,Instructor,Lê Thị B,BCrypt
+FPI003,teacher3@gmail.com,Teacher@123,Instructor,Phạm Văn C,BCrypt
+BD00001,student1@gmail.com,Student@123,Student,Nguyễn Văn 1,BCrypt
+BD00002,student2@gmail.com,Student@123,Student,Lê Thị 2,BCrypt
+BD00003,student3@gmail.com,Student@123,Student,Trần Văn 3,BCrypt
+BD00004,student4@gmail.com,Student@123,Student,Phạm Thị 4,BCrypt
+BD00005,student5@gmail.com,Student@123,Student,Hoàng Văn 5,BCrypt
+BD00006,student6@gmail.com,Student@123,Student,Đặng Thị 6,BCrypt
+BD00007,student7@gmail.com,Student@123,Student,Bùi Văn 7,BCrypt
+BD00008,student8@gmail.com,Student@123,Student,Vũ Thị 8,BCrypt
+BD00009,student9@gmail.com,Student@123,Student,Ngô Văn 9,BCrypt

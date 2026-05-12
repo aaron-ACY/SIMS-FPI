@@ -1,0 +1,10 @@
+id,user_id,gender,date_of_birth,image_path
+BD00001,BD00001,Male,2005-01-01,/images/students/s1.jpg
+BD00002,BD00002,Female,2005-02-02,/images/students/s2.jpg
+BD00003,BD00003,Male,2005-03-03,/images/students/s3.jpg
+BD00004,BD00004,Female,2005-04-04,/images/students/s4.jpg
+BD00005,BD00005,Male,2005-05-05,/images/students/s5.jpg
+BD00006,BD00006,Female,2005-06-06,/images/students/s6.jpg
+BD00007,BD00007,Male,2005-07-07,/images/students/s7.jpg
+BD00008,BD00008,Female,2005-08-08,/images/students/s8.jpg
+BD00009,BD00009,Male,2005-09-09,/images/students/s9.jpg
